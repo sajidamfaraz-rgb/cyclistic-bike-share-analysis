@@ -1,4 +1,4 @@
-<img src="images/Header.png" width="85%" />
+![Cyclistic-Logo](images/Header.png)
 
 ## **Ask**
 
@@ -870,12 +870,7 @@ order by total_ride_count desc
 
 Result:
 
-<table>
-    <tr>
-    <td><img src="images/image-18.png"></td>
-    <td><img src="images/image-19.png"></td>
-    </tr>
-</table>
+<img src="images/image-18.png" width ="300"> <img src="images/image-19.png" width ="300">
 
 Key Findings:
 
@@ -918,13 +913,9 @@ order by total_ride_count desc
 
 Result:
 
-<table>
-    <tr>
-    <td><img src="images/image-20.png"></td>
-    <td><img src="images/image-21.png"></td>
-    </tr>
-</table>
-
+<img src="images/image-20.png" width ="300">
+<img src="images/image-21.png" width ="300">
+<br>
 <u>Key Findings:</u>
 
 Cyclistic Members:
@@ -964,12 +955,9 @@ group by ride_month, member_casual, month_name
 order by ride_month
 ```
 
-<table>
-    <tr>
-    <td><img src="images/image-22.png"></td>
-    <td><img src="images/image-23.png"></td>
-    </tr>
-</table>
+<img src="images/image-22.png" width ="300">
+<img src="images/image-23.png" width ="300">
+
 
 <u>Key Findings:</u>
 
@@ -1011,12 +999,9 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<table>
-    <tr>
-    <td><img src="images/image-24.png"></td>
-    <td><img src="images/image-25.png"></td>
-    </tr>
-</table>
+<img src="images/image-24.png" width ="300">
+<img src="images/image-25.png" width ="300">
+
 
 The top 10 lists of start and end stations are almost identical, although their rankings and ride counts vary slightly. This consistency indicates that these stations are important hubs in members' travel patterns. Several are situated in or near Chicago's central business district, which contains major office buildings, government facilities,
 healthcare services, and other employment centers. Their high activity may therefore partly reflect employees commuting to and from work, alongside other everyday journeys
@@ -1039,12 +1024,9 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<table>
-    <tr>
-    <td><img src="images/image-26.png"></td>
-    <td><img src="images/image-27.png"></td>
-    </tr>
-</table>
+<img src="images/image-26.png" width ="300">
+<img src="images/image-27.png" width ="300">
+
 
 The analysis of casual riders' start and end station usage reveals a strong concentration of rides around Chicago's lakefront, major tourist attractions, parks, and recreational areas.
 
