@@ -1,6 +1,6 @@
 <table>
 <tr>
-<td><img src="images/LOgo.png" width="240"></td>
+<td><img src="images/logo.png" width="240"></td>
 <td>
     <h1><b>Cyclistic Bike-Share | Google Case Study</b></h1>
 </td>
