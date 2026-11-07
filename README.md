@@ -1,4 +1,4 @@
-![Cyclistic-Logo](images/header.png) 
+![Cyclistic-Logo](images/Header.png) 
 
 <br><br>
 
