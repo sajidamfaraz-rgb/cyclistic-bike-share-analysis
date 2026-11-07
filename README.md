@@ -1,10 +1,13 @@
-<table style="border: none;">
-<tr>
-<td><img src="images/logo.png" width="150"></td>
-<td>
-    <h1><b>Cyclistic Bike-Share | Google Case Study</b></h1>
-</td>
-</tr>
+<table>
+  <tr>
+    <td width="18%" align="center" valign="middle" border="-1px" >
+      <img src="images/logo.png" width="150">
+    </td>
+    <td width="1200" align="center" valign="middle">
+      <h1>Cyclistic Bike-Share Analysis</h1>
+      <h3>Google Data Analytics Capstone Project</h3>
+    </td>
+  </tr>
 </table>
 
 ## **Ask**
