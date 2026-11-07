@@ -1,6 +1,4 @@
-![Cyclistic-Logo](images/Header.png) 
-
-<br><br>
+![Cyclistic-Logo](images/Header.png)
 
 ## **Ask**
 
@@ -1068,12 +1066,8 @@ SQL Shell query:
 
 In this phase, we will create visualizations and share our key findings.
 
-<table>
-    <tr>
-    <td>For Cyclistic dashboard, go to</td>
-    <td><a href="https://public.tableau.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a></td>
-    </tr>
-</table>
+<p style="vertical-align: middle;">For Cyclistic dashboard, go to &nbsp;
+    <a href="https://public.tableau.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a></p>
 
 ### **Key Insights:**
 
