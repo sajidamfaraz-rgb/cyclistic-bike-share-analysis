@@ -1,4 +1,4 @@
-![Cyclistic-Logo](images/Header.png)
+<img src="images/Header.png" width="85%" />
 
 ## **Ask**
 
@@ -59,9 +59,13 @@ Since Cyclistic is a fictional company, this analysis will use publicly availabl
 ROCCC represents five criteria: Reliable, Original, Comprehensive, Current, and Cited. This framework helps assess the credibility, quality, and suitability of a dataset for analysis.
 
 ✓ Reliable (MODERATE): The dataset provides monthly trip records and station details, offering substantial information about bike usage. However, the presence of missing values may affect data accuracy and completeness.
+
 ✓ Original (HIGH): The information originates directly from Divvy's bike-sharing system, making it a primary data source.
+
 ✓ Comprehensive (MODERATE): The dataset includes key trip-related information but lacks demographic details and unique rider identifiers, restricting deeper analysis of individual riding behavior.
+
 ✓ Current (HIGH): Trip records are released regularly through monthly data updates.
+
 ✓ Cited (HIGH): The dataset is officially published by Divvy and maintained under the ownership of the City of Chicago, supporting its initiative to promote cycling as an alternative mode of transportation.
 
 **Data Quality and Integrity:**
@@ -553,7 +557,6 @@ with nearest_end_station as
 	    t.ride_id,
 	    t.end_lat,
 	    t.end_lng,
-
 	    s.station_id AS nearest_station_id,
 	    s.station_name AS nearest_station_name,
 	    s.lat AS nearest_latitude,
