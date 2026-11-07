@@ -253,8 +253,7 @@ cyclisticstripdata
 
 Output:
 
-<img src="images/image-2.png" width="130">
-<img src="images/image-3.png" width="130">
+<img src="images/image-2-3.png" width="300">
 
 <br>
 Checking extra lengthy ids:
@@ -271,8 +270,7 @@ where length(end_station_id)>8
 
 Output:
 
-<img src="images/image-4.png" width="140">
-<img src="images/image-5.png" width="140">
+<img src="images/image-4-5.png" width="300">
 
 <br>
 Correct ids and remove obvious typos.
@@ -391,8 +389,7 @@ from cyclisticstripdata
 
 No Invalid Values were found.
 
-<img src="images/image-8.png" width="150">
-<img src="images/image-9.png" width="150">
+<img src="images/image-8-9.png" width="300">
 <br><br>
 
 **Check for NULL values:**
@@ -870,7 +867,7 @@ order by total_ride_count desc
 
 Result:
 
-<img src="images/image-18.png" width ="300"> <img src="images/image-19.png" width ="300">
+<img src="images/image-18-19.png" width ="700">
 
 Key Findings:
 
@@ -913,8 +910,7 @@ order by total_ride_count desc
 
 Result:
 
-<img src="images/image-20.png" width ="300">
-<img src="images/image-21.png" width ="300">
+<img src="images/image-20-21.png" width ="600">
 <br>
 <u>Key Findings:</u>
 
@@ -955,9 +951,7 @@ group by ride_month, member_casual, month_name
 order by ride_month
 ```
 
-<img src="images/image-22.png" width ="300">
-<img src="images/image-23.png" width ="300">
-
+<img src="images/image-22-23.png" width ="600">
 
 <u>Key Findings:</u>
 
@@ -999,9 +993,7 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<img src="images/image-24.png" width ="300">
-<img src="images/image-25.png" width ="300">
-
+<img src="images/image-24-25.png" width ="600">
 
 The top 10 lists of start and end stations are almost identical, although their rankings and ride counts vary slightly. This consistency indicates that these stations are important hubs in members' travel patterns. Several are situated in or near Chicago's central business district, which contains major office buildings, government facilities,
 healthcare services, and other employment centers. Their high activity may therefore partly reflect employees commuting to and from work, alongside other everyday journeys
@@ -1024,9 +1016,7 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<img src="images/image-26.png" width ="300">
-<img src="images/image-27.png" width ="300">
-
+<img src="images/image-26-27.png" width ="600">
 
 The analysis of casual riders' start and end station usage reveals a strong concentration of rides around Chicago's lakefront, major tourist attractions, parks, and recreational areas.
 
@@ -1050,9 +1040,8 @@ SQL Shell query:
 ## **SHARE**
 
 In this phase, we will create visualizations and share our key findings.
-
-<p style="vertical-align: middle;">For Cyclistic dashboard, go to &nbsp;
-    <a href="https://public.tableau.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a></p>
+<img src="images/image-28.png" width="200">
+<a href="https://public.`table`au.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a>
 
 ### **Key Insights:**
 
