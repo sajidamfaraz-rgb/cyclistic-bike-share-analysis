@@ -1039,8 +1039,10 @@ SQL Shell query:
 ## **SHARE**
 
 In this phase, we will create visualizations and share our key findings.
+<br>
 For Cyclistic Dashboard go to
-<a href="https://public.`table`au.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a>
+<a href="https://public.tableau.com/app/profile/sajida.faraz/viz/Cyclistic-BikeShareAnalysis/d_TimeAna"> 
+<img src="images/Tableau.png" width="90"></a>
 
 ### **Key Insights:**
 
