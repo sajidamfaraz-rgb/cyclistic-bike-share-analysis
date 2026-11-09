@@ -693,8 +693,7 @@ The data cleaning and processing stage is complete, and the dataset is now ready
 
 ## **Data Analysis:**
 
-In this phase, we will summarize the dataset using descriptive
-statistics, carry out relevant computations, and examine the data to uncover meaningful patterns, correlations, and trends.
+In this phase, we will summarize the dataset using descriptive statistics, carry out relevant computations, and examine the data to uncover meaningful patterns, correlations, and trends using PostgreSql.
 
 **Descriptive Statistics:**
 
@@ -1040,7 +1039,7 @@ SQL Shell query:
 ## **SHARE**
 
 In this phase, we will create visualizations and share our key findings.
-<img src="images/image-28.png" width="200">
+For Cyclistic Dashboard go to
 <a href="https://public.`table`au.com/app/profile/sajida.faraz/viz/Cyclistic_17924787487710/d_TimeAna?publish=yes"> <img src="images/Tableau.png" width="90"></a>
 
 ### **Key Insights:**
