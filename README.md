@@ -736,7 +736,7 @@ FROM cyclisticstripdata;
 
 Result:
 
-<img src="images/image-14.png">
+<img src="images/image-14.png" height=40 width="600">
 
 <u>Key Findings:</u>
 
