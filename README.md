@@ -951,7 +951,7 @@ group by ride_month, member_casual, month_name
 order by ride_month
 ```
 
-<img src="images/image-22-23.png" width ="600">
+<img src="images/image-22-23.png" width ="800">
 
 <u>Key Findings:</u>
 
@@ -977,7 +977,7 @@ membership offers aimed at converting frequent casual riders into members.
 
 Among Members:
 
-```postgresql
+```PostgreSQL
 select member_casual, start_station_name,
 	count(ride_id) as total_ride_count
 from cyclisticstripdata
@@ -993,7 +993,7 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<img src="images/image-24-25.png" width ="600">
+<img src="images/image-24-25.png" width ="800">
 
 The top 10 lists of start and end stations are almost identical, although their rankings and ride counts vary slightly. This consistency indicates that these stations are important hubs in members' travel patterns. Several are situated in or near Chicago's central business district, which contains major office buildings, government facilities,
 healthcare services, and other employment centers. Their high activity may therefore partly reflect employees commuting to and from work, alongside other everyday journeys
@@ -1016,7 +1016,7 @@ group by member_casual, end_station_name
 order by  total_ride_count desc
 ```
 
-<img src="images/image-26-27.png" width ="600">
+<img src="images/image-26-27.png" width ="800">
 
 The analysis of casual riders' start and end station usage reveals a strong concentration of rides around Chicago's lakefront, major tourist attractions, parks, and recreational areas.
 
@@ -1082,8 +1082,7 @@ In this phase, we will create visualizations and share our key findings.
    </div>
    without needing an annual membership. This lowers the barrier to entry and captures revenue from people who think annual memberships are too expensive.
 
-   **Engagement:** Because they have the pass, they ride more
-   frequently -- shifting from weekend-only users to regular weekly riders.
+   **Engagement:** Because they have the pass, they ride more frequently — they shift from weekend-only users to regular weekly riders and from seasonal riders (2–3 months) to regular riders (up to 6 months).
 
    **Conversion:** Utilize in-app analytics to track that a Flex Pass holder has used their rides heavily or saved a certain amount of money, the app triggers a targeted conversion offer: "You saved \$XX on your Weekend Plus Pass this month! For just \$X more, upgrade to an Annual
    Membership and ride unlimited all year."
